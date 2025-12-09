@@ -1,0 +1,24 @@
+body {
+    background: url("amou2.jpg");
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	margin-top: 100px;
+	margin-left:100px;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	
+}
+p {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 23px;
+}
+.big-first-letter::first-letter {
+    font-size: 3em;     /* Taille beaucoup plus grande */ 
+}
+a {
+	color: #ff4d88;
+	text-decoration: none;
+}

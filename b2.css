@@ -1,0 +1,95 @@
+body {
+    background: url("bfond.jpg");
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	margin-top: 80px;
+	text-align: center; 
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+.background {
+  background-image: url("bfond.jpg"); /* remplace par le nom de ton image */
+  background-size: cover;   /* pour que l'image remplisse tout le div */
+  background-position: center;
+  height: 100vh;            /* prend toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;             /* couleur du texte normal */
+  font-size: 20px;
+}
+.texte {
+  display: none;
+}
+.titre:hover + .texte {
+  display: block;
+}
+.texte {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	
+}
+h3 {
+	text-align: center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	
+}
+
+.poeme1 {
+	text-align: center;
+	font-size: 20px;
+}
+.poeme2 {
+	text-align: center;
+	font-size: 20px;
+}
+.poeme3 {
+	text-align: center;
+	font-size: 20px;
+}
+
+.tooltip {
+  position: relative; /* Nécessaire pour positionner la bulle par rapport au texte */
+  display: inline-block; /* Pour que la largeur suive le texte */
+  cursor: pointer; /* Indique qu’on peut survoler */
+}
+
+.tooltip-text {
+  visibility: hidden; /* caché au départ */
+  width: max-content; /* largeur automatique selon le texte */
+  background-color: #333; /* fond sombre */
+  color: #fff; /* texte blanc */
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 5px;
+  
+  position: absolute; /* position par rapport au parent .tooltip */
+  bottom: 125%; /* place la bulle au-dessus du texte */
+  left: 50%;
+  transform: translateX(-50%); /* centre horizontalement */
+  
+  opacity: 0; /* invisible */
+  transition: opacity 0.3s; /* apparition douce */
+  z-index: 1; /* au-dessus du reste */
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1; /* devient visible */
+}
+ul {
+	text-align: center;
+	list-style: none; /* enlève le point devant le li, si tu veux */
+	padding: 0;
+	font-size: 20px;
+}
+a {
+	color: #008fb3;
+	text-decoration: none;
+}

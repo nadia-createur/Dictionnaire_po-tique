@@ -1,0 +1,64 @@
+body {
+    background: url("amou2.jpg");
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	text-align:center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+.background {
+  background-image: url("Amou2.jpg"); /* remplace par le nom de ton image */
+  background-size: cover;   /* pour que l'image remplisse tout le div */
+  background-position: center;
+  height: 100vh;            /* prend toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;             /* couleur du texte normal */
+  font-size: 20px;
+}
+.texte {
+  display: none;
+}
+.titre:hover + .texte {
+  display: block;
+}
+.texte {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+h3 {
+	text-align: center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+
+ul {
+	text-align: center;
+	list-style: none; /* enlève le point devant le li, si tu veux */
+	padding: 0;
+	font-size: 20px;
+}
+.ligne::first-letter {
+    font-weight: bold;
+	margin-left: 200px;
+	color: #ff4d88;
+}
+.ligne1::first-letter {
+    font-weight: bold;
+	margin-left: 350px;
+	color: #ff4d88;
+}
+.ligne2::first-letter {
+    font-weight: bold;
+	margin-left: 450px;
+	color: #ff4d88;
+}
+a {
+	color: #ff4d88;
+	text-decoration: none;
+}

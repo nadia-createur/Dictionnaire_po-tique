@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'GrotesqueBourgeoisieRegular';
+  src: url('fonts/GrotesqueBourgeoisieRegular.woff2') format('woff2');
+}
+body {
+    background-color: blue; 
+    background: url("livre2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+	
+}
+h1 {
+	font-size: 50px;
+	margin-top: 25px;
+	margin-left: 150px;
+	font-family: "GrotesqueBourgeoisieRegular";
+}
+p {
+	text-align:center;
+	font-size:25px;
+	margin-top:5px;
+}
+a {
+    color: black;     
+}
+h1 {
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+.big-first-letter::first-letter {
+    font-size: 3em;     /* Taille beaucoup plus grande */ 
+}
+a {
+	color: #ff4d88;
+	text-decoration: none;
+}

@@ -1,0 +1,30 @@
+body {
+    background: url("bfond.jpg");
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	margin-left: 100px;
+	margin-top: 100px;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	font-size: 40px;
+}
+.big-first-letter::first-letter {
+    font-size: 3em;     /* Taille beaucoup plus grande */ 
+}
+p {
+	text-align: center;
+	font-size: 25px;
+}
+.mon-lien {
+    color: red; /* couleur du lien */
+	text-decoration: none;
+}
+.mon-lien:visited {
+    color: purple;
+}
+a {
+	color: #008fb3;
+	text-decoration: none;
+}

@@ -1,0 +1,131 @@
+body {
+    background: url("serie.jpg");
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	margin-top: 100px;
+	text-align: center; 
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+.background {
+  background-image: url("Amou2.jpg"); /* remplace par le nom de ton image */
+  background-size: cover;   /* pour que l'image remplisse tout le div */
+  background-position: center;
+  height: 100vh;            /* prend toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;             /* couleur du texte normal */
+  font-size: 20px;
+}
+.texte {
+  display: none;
+}
+.titre:hover + .texte {
+  display: block;
+}
+.texte {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	
+}
+h3 {
+	text-align: center;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	
+}
+ul {
+	text-align: center;
+	list-style: none; /* enlève le point devant le li, si tu veux */
+	padding: 0;
+	font-size: 20px;
+}
+.ligne1 {
+	margin-left: 200px;
+	font-size: 20px;
+}
+.ligne2 {
+	margin-left: 200px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne3 {
+	margin-left: 200px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne4 {
+	margin-left: 200px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne5 {
+	margin-left: 200px;
+	font-size: 20px;
+}
+.ligne6 {
+	margin-left: 500px;
+	font-size: 20px;
+	
+}
+.ligne7 {
+	margin-left: 500px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne8 {
+	margin-left: 500px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne9 {
+	margin-left: 500px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne10 {
+	margin-left: 500px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne11 {
+	margin-left: 500px;
+	font-size: 20px;
+}
+.ligne12 {
+	margin-left: 750px;
+	font-size: 20px;
+}
+.ligne13 {
+	margin-left: 750px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne14 {
+	margin-left: 750px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne15 {
+	margin-left: 750px;
+	font-size: 20px;
+	color: #008fb3;
+}
+.ligne16 {
+	margin-left: 750px;
+	font-size: 20px;
+}
+a {
+	color: #008fb3;
+	text-decoration: none;
+}
+.ligne::first-letter {
+    font-weight: bold;
+	margin-left: 200px;
+	color: #ff4d88;
+}

@@ -1,0 +1,25 @@
+body {
+    background: url("serie.jpg");
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+h1{
+	margin-left: 100px;
+	margin-top: 150px;
+	font-family: 'GrotesqueBourgeoisieRegular';
+	font-size: 40px ; 
+}
+p {
+	text-align: center;
+	font-size: 20px;
+
+}
+.big-first-letter::first-letter {
+    font-size: 3em;     /* Taille beaucoup plus grande */ 
+}
+a {
+	color: #008fb3;
+	text-decoration: none;
+}
+

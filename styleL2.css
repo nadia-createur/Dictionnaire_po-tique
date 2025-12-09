@@ -1,0 +1,85 @@
+body {
+    background-color: blue; 
+    background: url("livre2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	text-align: left;
+	margin-left: 60px; 
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+
+.background {
+  background-image: url("livre2.jpg"); /* remplace par le nom de ton image */
+  background-size: cover;   /* pour que l'image remplisse tout le div */
+  background-position: center;
+  height: 100vh;            /* prend toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;             /* couleur du texte normal */
+  font-size: 20px;
+}
+.texte {
+  display: none;
+}
+
+.titre:hover + .texte {
+  display: block;
+}
+.texte {
+	text-align: center;
+}
+h2 {
+	text-align: center; 
+	margin-top: 40px;
+	font-family: 'GrotesqueBourgeoisieRegular';
+
+}
+h3 {
+	text-align: right; 
+	margin-right: 60px;
+	font-family: 'GrotesqueBourgeoisieRegular';
+}
+.acrostiche{
+	text-align: left;
+	margin-left: 60px;
+}
+
+.acrostiche2 {
+	margin-top:1000 px;
+	margin-left: 550px;
+	
+}
+.acrostiche3 { 
+	margin-left: 1000px; 
+}
+
+.lettre1 {
+    font-weight: bold;
+	color: #ff4d88;
+}
+.lettre2 {
+    font-weight: bold;
+	color: #ff4d88;
+}
+.lettre3 {
+    font-weight: bold;
+	color: #ff4d88;
+}
+ul{
+	text-align: center;
+	list-style: none; /* enlève le point devant le li, si tu veux */
+	padding: 0;
+	font-size: 20px;
+}
+a {
+	color: #ff4d88;
+	text-decoration: none;
+}
+
+
+
+

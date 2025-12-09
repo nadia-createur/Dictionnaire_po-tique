@@ -1,0 +1,9 @@
+.caligramme p {
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+body {
+  background-color: #222;
+}
